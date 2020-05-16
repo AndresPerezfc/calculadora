@@ -55,5 +55,11 @@ public class MainActivity extends AppCompatActivity {
         resultado.setText("" + dividir);
     }
 
+    public void limpiar(View v){
+        numero_uno.setText("");
+        numero_dos.setText("");
+        resultado.setText("");
+    }
+
 
 }
