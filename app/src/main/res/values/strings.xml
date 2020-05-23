@@ -9,5 +9,7 @@
     <string name="btn_multiplicar">Multiplicar</string>
     <string name="btn_dividir">Dividir</string>
     <string name="btn_limpiar">Limpiar</string>
+    <string name="error_numero_uno">Digite el número uno</string>
+    <string name="error_numero_dos">Digite el número dos</string>
 </resources>
 

@@ -10,4 +10,6 @@
     <string name="btn_multiplicar">Multiply</string>
     <string name="btn_dividir">Divide</string>
     <string name="btn_limpiar">Clear</string>
+    <string name="error_numero_uno">Type the number one</string>
+    <string name="error_numero_dos">Type the number two</string>
 </resources>
