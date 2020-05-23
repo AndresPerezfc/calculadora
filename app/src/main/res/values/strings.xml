@@ -4,6 +4,7 @@
     <string name="numero_uno">Número Uno</string>
     <string name="numero_dos">Número Dos</string>
     <string name="resultado">Resultado</string>
+    <string name="btn_calcular">Calcular</string>
     <string name="btn_sumar">Sumar</string>
     <string name="btn_restar">Restar</string>
     <string name="btn_multiplicar">Multiplicar</string>
@@ -11,5 +12,16 @@
     <string name="btn_limpiar">Limpiar</string>
     <string name="error_numero_uno">Digite el número uno</string>
     <string name="error_numero_dos">Digite el número dos</string>
+    <string name="error_division">No puede dividir entre Cero</string>
+    <string name="opt_sumar">Sumar</string>
+    <string name="opt_restar">Restar</string>
+    <string name="opt_multiplicar">Multiplicar</string>
+    <string name="opt_dividir">Dividir</string>
+    <string-array name="operaciones">
+        <item>@string/opt_sumar</item>
+        <item>@string/opt_restar</item>
+        <item>@string/opt_multiplicar</item>
+        <item>@string/opt_dividir</item>
+    </string-array>
 </resources>
 
