@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">calculadora</string>
+    <string name="titulo">Calculadora</string>
+    <string name="numero_uno">Número Uno</string>
+    <string name="numero_dos">Número Dos</string>
+    <string name="resultado">Resultado</string>
+    <string name="btn_sumar">Sumar</string>
+    <string name="btn_restar">Restar</string>
+    <string name="btn_multiplicar">Multiplicar</string>
+    <string name="btn_dividir">Dividir</string>
+    <string name="btn_limpiar">Limpiar</string>
 </resources>
+

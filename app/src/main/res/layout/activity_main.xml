@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="Calculadora"
+        android:text="@string/titulo"
         android:textSize="30sp" />
 
     <EditText
@@ -20,7 +20,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Número uno"
+        android:hint="@string/numero_uno"
         android:inputType="number" />
 
     <EditText
@@ -28,7 +28,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Número dos"
+        android:hint="@string/numero_dos"
         android:inputType="number" />
 
     <LinearLayout
@@ -42,7 +42,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="sumar"
-            android:text="Sumar" />
+            android:text="@string/btn_sumar" />
 
         <Button
             android:id="@+id/btnRestar"
@@ -50,7 +50,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="restar"
-            android:text="Restar" />
+            android:text="@string/btn_restar" />
 
         <Button
             android:id="@+id/btnMultiplicar"
@@ -58,7 +58,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="multiplicar"
-            android:text="Multiplicar" />
+            android:text="@string/btn_multiplicar" />
 
         <Button
             android:id="@+id/btnDividir"
@@ -66,7 +66,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="dividir"
-            android:text="Dividir" />
+            android:text="@string/btn_dividir" />
 
     </LinearLayout>
 
@@ -80,7 +80,7 @@
             android:layout_width="258dp"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="Resultado"
+            android:text="@string/resultado"
             android:textColor="#2A000000"
             android:textSize="36sp"
             android:textStyle="italic" />
@@ -91,6 +91,6 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="limpiar"
-            android:text="Limpiar" />
+            android:text="@string/btn_limpiar" />
     </LinearLayout>
 </LinearLayout>
